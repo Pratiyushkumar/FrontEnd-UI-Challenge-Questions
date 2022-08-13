@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <div id="app" class="app__container">
+      <h1>Undoable Counter</h1>
+      <div class="undo__Redo__Container">
+        <button class="undoBtn">undo</button>
+        <button class="redoBtn" disabled>redo</button>
+      </div>
+      <div class="main__area">
+        <button class="numberBtn">-100</button>
+        <button class="numberBtn">-10</button>
+        <button class="numberBtn">-1</button>
+        <p class="result">0</p>
+        <button class="numberBtn">+1</button>
+        <button class="numberBtn">+10</button>
+        <button class="numberBtn">+100</button>
+      </div>
+      <div class="main__History">
+        <h1>History</h1>
+        <div class="history__container"></div>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>

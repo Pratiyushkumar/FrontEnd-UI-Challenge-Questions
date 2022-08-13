@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap");
+* {
+  font-family: "Indie Flower", cursive;
+}
+
+.app__container {
+  /* margin: auto; */
+  /* width: 16%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.undo__Redo__Container {
+  display: flex;
+  flex-direction: row;
+}
+
+.undoBtn,
+.redoBtn {
+  width: 10em;
+  height: 3em;
+  margin: 10px;
+  border: 2px solid black;
+  font-weight: 700;
+  font-size: 1em;
+  cursor: pointer;
+}
+.main__area {
+  display: flex;
+  flex-direction: row;
+}
+.numberBtn {
+  width: 5em;
+  height: 3em;
+  margin: 10px;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+.numberBtn,
+.result {
+  font-size: 1.5em;
+}
+.result {
+  padding: 20px;
+}
+
+button:disabled {
+  border: none;
+}
+
+.main__History {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.history__container {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 100%;
+}
+
+.logElements {
+  padding: 5px;
+  font-size: 1.6em;
+}
